@@ -20,7 +20,7 @@ on Libraries node in Projects view can be used to add the JSTL 1.1 library.
     <body>
 
     <h1>Cadastro de Contatos</h1>
-    <form action="formSave.jsp" method="post">
+    <form action="ContatoController" method="post">
       Entre com seu nome
       <input type="text" name="textNome"/><br/>
       Entre com seu email
